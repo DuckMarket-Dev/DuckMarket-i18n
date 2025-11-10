@@ -1,0 +1,120 @@
+# 덕 마켓 - 한국어 (Korean)
+# 형식: key=value
+
+# ========== 메인 인터페이스 ==========
+market.title=Duck Market
+DuckMarket.Title=Duck Market
+DuckMarket.Title.ko-KR=Duck Market
+market.browse=마켓 둘러보기
+market.my_listings=내 상품
+market.per_item=개당
+DuckMarket.PerItem.ko-KR=개당
+market.seller=판매자
+DuckMarket.Seller.ko-KR=판매자
+market.mod_item=MOD 아이템
+
+# ========== 필터 버튼 ==========
+filter.market=판매 주문
+filter.purchase=구매 주문
+filter.purchase_placeholder=구매 주문 기능은 곧 출시됩니다...
+
+# ========== 검색창 ==========
+search.button=검색
+search.refresh=새로고침
+search.placeholder=아이템 검색...
+search.item_name_placeholder=아이템 이름 검색...
+search.advanced_filter_placeholder=고급 필터...
+
+# ========== 구매 버튼 ==========
+buy.button=구매
+buy.title=몇 개를 구매하시겠습니까?
+buy.confirm=구매 확인
+buy.success=구매 성공
+buy.failed=구매 실패
+buy.processing=처리 중
+buy.expired=만료됨
+buy.sold_out=품절
+
+# ========== 등록/취소 버튼 ==========
+listing.button=판매 등록
+delist.button=등록 취소
+delist.success_label=취소 성공
+delist.success=등록 취소 성공! {0} x{1}이(가) 보관함으로 전송되었습니다
+delist.failed=등록 취소 실패, 다시 시도해주세요
+
+# ========== 구매 알림 ==========
+purchase.success_notification={0} x{1}이(가) 픽업 포인트로 전송되었습니다
+purchase.failed_notification=구매에 실패했습니다. 다시 시도해주세요
+purchase.stock_label=재고
+
+# 우클릭 메뉴
+menu.filter=필터
+menu.no_item_selected=선택된 아이템이 없습니다
+menu.filter_loading=마켓 데이터 로딩 중...
+menu.filter_success={0}개의 아이템을 찾았습니다
+menu.filter_no_result=마켓에서 아이템을 찾을 수 없습니다
+menu.filter_error=필터링에 실패했습니다. 다시 시도해주세요
+
+# ========== 판매 알림 ==========
+sold.base_notification=상품이 판매되었습니다! {0} x{1} = {2} 코인 (구매자: {3})
+sold.raid_notification=상품이 판매되었습니다! {0} x{1} = {2} 코인 (기지로 돌아가면 받을 수 있습니다)
+sold.single_notification=상품이 판매되었습니다: {0} x{1} = {2} ₽
+sold.multiple_notification={0}개 상품이 판매되었습니다, 총 {1} ₽
+
+# ========== WebSocket 연결 ==========
+websocket.disconnected=마켓 연결이 끊어졌습니다
+websocket.reconnected=마켓 연결이 복구되었습니다
+
+# ========== 등록 화면 레이블 ==========
+listing_panel.market_price=시장 참고가
+listing_panel.market_price_loading=로딩 중...
+listing_panel.original_price=정가
+listing_panel.recommended_price=추천 가격
+listing_panel.price_change=가격 변동
+listing_panel.price_adjustment=가격 조정
+listing_panel.durability_adjustment=내구도 조정
+listing_panel.listing_count=등록 수량
+listing_panel.highest_price=최고가
+listing_panel.lowest_price=최저가
+listing_panel.average_price=평균가
+listing_panel.storage_quantity=창고 수량
+listing_panel.sell_quantity=주문 등록 수량
+listing_panel.sell_price=주문 등록 단가
+listing_panel.tax_fee=수수료
+listing_panel.total_amount=총계
+listing_panel.button_text=등록하기
+listing_panel.computing=계산 중...
+listing_panel.no_data=데이터 없음
+
+# ========== 등록 관련 ==========
+listing.success_notification=등록 성공! {0} x{1}
+listing.error_cash=현금 아이템은 등록할 수 없습니다
+listing.error_container=컨테이너를 비운 후 등록하세요
+listing.error_attachments=부착물을 제거한 후 등록하세요
+listing.error_insufficient_funds=수수료가 부족합니다
+listing.error_insufficient_quantity=창고 수량이 부족합니다
+listing.failed_generic=등록에 실패했습니다. 다시 시도하세요
+listing.limit_exceeded=더 이상 등록할 수 없습니다（한도 도달）
+listing.nonce_already_used=중복된 등록 요청입니다. 다시 시도하세요
+
+# ========== 일반 오류 ==========
+error.generic=오류가 발생했습니다. 다시 시도하세요
+error.load_failed=로드에 실패했습니다. 다시 시도하세요
+error.login_nonce_used=중복된 로그인 요청입니다. 다시 시도하세요
+
+# ========== 페이지네이션 ==========
+pagination.text={0} 페이지, 총 {1}개 아이템
+
+# ========== 아이템 로드 ==========
+items.loaded={0}개 아이템을 로드했습니다
+
+# ========== 메인 메뉴 상태 ==========
+status.checking_server=서버 상태 확인 중...
+status.server_online=[Duck Market] 서버 온라인
+status.server_offline=[Duck Market] 서버 오프라인
+status.steam_id_not_found=[Duck Market] Steam ID를 가져올 수 없습니다
+
+# ========== 상호작용 옵션 ==========
+interaction.open_duck_market=Duck Market 열기
+
+

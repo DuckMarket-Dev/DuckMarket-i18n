@@ -1,0 +1,115 @@
+# 鴨鴨市場 - 中文繁體 (Traditional Chinese)
+# 格式: key=value
+
+# ========== 主界面 ==========
+market.title=鴨鴨市場
+market.browse=瀏覽市場
+market.my_listings=我的商品
+market.per_item=每件物品
+market.seller=賣家
+market.mod_item=MOD 商品
+
+# ========== 篩選按鈕 ==========
+filter.market=出售
+filter.purchase=求購
+filter.purchase_placeholder=求購功能將在稍後上線...
+
+# ========== 搜尋欄 ==========
+search.button=搜尋
+search.refresh=重新整理
+search.placeholder=搜尋商品...
+search.item_name_placeholder=搜尋商品名稱...
+search.advanced_filter_placeholder=高級篩選...
+
+# ========== 購買按鈕 ==========
+buy.button=購買
+buy.title=你想要購買多少？
+buy.confirm=確認購買
+buy.success=購買成功
+buy.failed=購買失敗
+buy.processing=正在處理
+buy.expired=已過期
+buy.sold_out=商品已被購買
+
+# ========== 上架/下架按鈕 ==========
+listing.button=上架
+delist.button=下架
+delist.success_label=下架成功
+delist.success=下架成功！{0} x{1} 已存入自提櫃
+delist.failed=下架失敗，請重試
+
+# ========== 購買通知 ==========
+purchase.success_notification={0} x{1} 已發送到馬蜂自提點
+purchase.failed_notification=購買失敗，請重試
+purchase.stock_label=庫存
+
+# 右鍵選單
+menu.filter=篩選
+menu.no_item_selected=未選中物品
+menu.filter_loading=正在載入市場資料...
+menu.filter_success=找到 {0} 個商品
+menu.filter_no_result=市場上沒有此商品
+menu.filter_error=篩選失敗，請重試
+
+# ========== 售出通知 ==========
+sold.base_notification=商品已售出！{0} x{1} = {2} 金幣 (買家: {3})
+sold.raid_notification=商品已售出！{0} x{1} = {2} 金幣 (返回基地後獲得)
+sold.single_notification=商品已售出：{0} x{1} = {2} ₽
+sold.multiple_notification={0} 件商品已售出，共獲得 {1} ₽
+
+# ========== WebSocket 連接 ==========
+websocket.disconnected=市場連接已中斷
+websocket.reconnected=市場連接已恢復
+
+# ========== 上架介面標籤 ==========
+listing_panel.market_price=市場參考價
+listing_panel.market_price_loading=載入中...
+listing_panel.original_price=原價
+listing_panel.recommended_price=推薦價格
+listing_panel.price_change=價格漲幅
+listing_panel.price_adjustment=價格修正
+listing_panel.durability_adjustment=耐久修正
+listing_panel.listing_count=在售數量
+listing_panel.highest_price=最高售價
+listing_panel.lowest_price=最低售價
+listing_panel.average_price=平均售價
+listing_panel.storage_quantity=倉庫數量
+listing_panel.sell_quantity=掛單數量
+listing_panel.sell_price=掛單單價
+listing_panel.tax_fee=稅費
+listing_panel.total_amount=總共
+listing_panel.button_text=上架商品
+listing_panel.computing=計算中...
+listing_panel.no_data=暫無數據
+
+# ========== 上架相關 ==========
+listing.success_notification=上架成功！{0} x{1}
+listing.error_cash=無法上架現金物品
+listing.error_container=請先清空容器內的物品再上架
+listing.error_attachments=請先卸下配件再上架
+listing.error_insufficient_funds=餘額不足支付稅費
+listing.error_insufficient_quantity=倉庫數量不足
+listing.failed_generic=上架失敗，請重試
+listing.limit_exceeded=無法上架更多商品（已達上限）
+listing.nonce_already_used=重複的上架請求，請重試
+
+# ========== 通用錯誤 ==========
+error.generic=發生錯誤，請重試
+error.load_failed=載入失敗，請重試
+error.login_nonce_used=重複的登入請求，請重試
+
+# ========== 分頁 ==========
+pagination.text=第 {0} 頁，共 {1} 項
+
+# ========== 物品載入 ==========
+items.loaded=已載入物品 {0} 個
+
+# ========== 主選單狀態 ==========
+status.checking_server=正在檢查伺服器狀態...\n交流群：1042457462
+status.server_online=[鴨鴨市場] 伺服器在線\n交流群：1042457462
+status.server_offline=[鴨鴨市場] 伺服器離線\n交流群：1042457462
+status.steam_id_not_found=[鴨鴨市場] 無法獲取 Steam ID\n交流群：1042457462
+
+# ========== 交互選項 ==========
+interaction.open_duck_market=打開鴨鴨市場
+

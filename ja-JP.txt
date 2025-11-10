@@ -1,0 +1,120 @@
+# ダックマーケット - 日本語 (Japanese)
+# Format: key=value
+
+# ========== メインインターフェース ==========
+market.title=Duck Market
+DuckMarket.Title=Duck Market
+DuckMarket.Title.ja-JP=Duck Market
+market.browse=マーケットを見る
+market.my_listings=出品中の商品
+market.per_item=個あたり
+DuckMarket.PerItem.ja-JP=個あたり
+market.seller=出品者
+DuckMarket.Seller.ja-JP=出品者
+market.mod_item=MOD アイテム
+
+# ========== フィルターボタン ==========
+filter.market=売り注文
+filter.purchase=買い注文
+filter.purchase_placeholder=買い注文機能は近日公開予定...
+
+# ========== 検索バー ==========
+search.button=検索
+search.refresh=更新
+search.placeholder=アイテムを検索...
+search.item_name_placeholder=アイテム名を検索...
+search.advanced_filter_placeholder=高度なフィルター...
+
+# ========== 購入ボタン ==========
+buy.button=購入
+buy.title=いくつ購入しますか？
+buy.confirm=購入を確認
+buy.success=購入成功
+buy.failed=購入失敗
+buy.processing=処理中
+buy.expired=期限切れ
+buy.sold_out=売り切れ
+
+# ========== 出品/取り消しボタン ==========
+listing.button=出品する
+delist.button=出品取り消し
+delist.success_label=取り消し成功
+delist.success=出品取り消し成功！{0} x{1} がロッカーに送信されました
+delist.failed=出品取り消しに失敗しました、もう一度お試しください
+
+# ========== 購入通知 ==========
+purchase.success_notification={0} x{1} が受取ポイントに送られました
+purchase.failed_notification=購入に失敗しました。もう一度お試しください
+purchase.stock_label=在庫
+
+# 右クリックメニュー
+menu.filter=フィルター
+menu.no_item_selected=アイテムが選択されていません
+menu.filter_loading=マーケットデータを読み込み中...
+menu.filter_success={0} 件のアイテムが見つかりました
+menu.filter_no_result=マーケットにアイテムが見つかりません
+menu.filter_error=フィルターに失敗しました。もう一度お試しください
+
+# ========== 売却通知 ==========
+sold.base_notification=商品が売れました！{0} x{1} = {2} コイン (購入者: {3})
+sold.raid_notification=商品が売れました！{0} x{1} = {2} コイン (基地に戻ると受け取れます)
+sold.single_notification=商品が売れました：{0} x{1} = {2} ₽
+sold.multiple_notification={0} 個の商品が売れました、合計 {1} ₽
+
+# ========== WebSocket 接続 ==========
+websocket.disconnected=マーケット接続が切断されました
+websocket.reconnected=マーケット接続が復旧しました
+
+# ========== 出品画面ラベル ==========
+listing_panel.market_price=市場参考価格
+listing_panel.market_price_loading=読み込み中...
+listing_panel.original_price=定価
+listing_panel.recommended_price=推奨価格
+listing_panel.price_change=価格変動
+listing_panel.price_adjustment=価格補正
+listing_panel.durability_adjustment=耐久度補正
+listing_panel.listing_count=出品数
+listing_panel.highest_price=最高価格
+listing_panel.lowest_price=最低価格
+listing_panel.average_price=平均価格
+listing_panel.storage_quantity=倉庫数量
+listing_panel.sell_quantity=注文登録数量
+listing_panel.sell_price=注文登録単価
+listing_panel.tax_fee=手数料
+listing_panel.total_amount=合計
+listing_panel.button_text=出品する
+listing_panel.computing=計算中...
+listing_panel.no_data=データなし
+
+# ========== 出品関連 ==========
+listing.success_notification=出品成功！{0} x{1}
+listing.error_cash=現金アイテムは出品できません
+listing.error_container=コンテナを空にしてから出品してください
+listing.error_attachments=アタッチメントを外してから出品してください
+listing.error_insufficient_funds=手数料が不足しています
+listing.error_insufficient_quantity=倉庫の数量が不足しています
+listing.failed_generic=出品に失敗しました。もう一度お試しください
+listing.limit_exceeded=これ以上出品できません（上限に達しました）
+listing.nonce_already_used=重複した出品リクエストです。もう一度お試しください
+
+# ========== 一般エラー ==========
+error.generic=エラーが発生しました。もう一度お試しください
+error.load_failed=読み込みに失敗しました。もう一度お試しください
+error.login_nonce_used=重複したログインリクエストです。もう一度お試しください
+
+# ========== ページネーション ==========
+pagination.text={0} ページ、合計 {1} アイテム
+
+# ========== アイテム読み込み ==========
+items.loaded={0} 個のアイテムを読み込みました
+
+# ========== メインメニューステータス ==========
+status.checking_server=サーバーステータスを確認中...
+status.server_online=[Duck Market] サーバーオンライン
+status.server_offline=[Duck Market] サーバーオフライン
+status.steam_id_not_found=[Duck Market] Steam IDを取得できません
+
+# ========== インタラクションオプション ==========
+interaction.open_duck_market=Duck Marketを開く
+
+
