@@ -1,0 +1,115 @@
+# Duck Market - Français (French)
+# Format: key=value
+
+# ========== Interface principale ==========
+market.title=Duck Market
+market.browse=Parcourir le marché
+market.my_listings=Mes articles
+market.per_item=Par article
+market.seller=Vendeur
+market.mod_item=Article MOD
+
+# ========== Boutons de filtre ==========
+filter.market=Vendre
+filter.purchase=Acheter
+filter.purchase_placeholder=Les commandes d'achat arrivent bientôt...
+
+# ========== Barre de recherche ==========
+search.button=Rechercher
+search.refresh=Actualiser la liste
+search.placeholder=Rechercher des articles...
+search.item_name_placeholder=Rechercher un nom d'article...
+search.advanced_filter_placeholder=Filtre avancé...
+
+# ========== Boutons d'achat ==========
+buy.button=Acheter
+buy.title=Combien voulez-vous acheter ?
+buy.confirm=Confirmer l'achat
+buy.success=Achat réussi
+buy.failed=Échec de l'achat
+buy.processing=Traitement en cours
+buy.expired=Expiré
+buy.sold_out=Article déjà vendu
+
+# ========== Boutons d'annonce/retrait ==========
+listing.button=Mettre en vente
+delist.button=Retirer
+delist.success_label=Retrait réussi
+delist.success=Retrait réussi ! {0} x{1} envoyé au casier
+delist.failed=Échec du retrait, veuillez réessayer
+
+# ========== Notifications d'achat ==========
+purchase.success_notification={0} x{1} a été envoyé au point de retrait
+purchase.failed_notification=Échec de l'achat, veuillez réessayer
+purchase.stock_label=Stock
+
+# Menu clic droit
+menu.filter=Filtrer
+menu.no_item_selected=Aucun article sélectionné
+menu.filter_loading=Chargement des données du marché...
+menu.filter_success={0} articles trouvés
+menu.filter_no_result=Cet article n'est pas disponible sur le marché
+menu.filter_error=Échec du filtre, veuillez réessayer
+
+# ========== Notifications de vente ==========
+sold.base_notification=Article vendu ! {0} x{1} = {2} pièces (Acheteur : {3})
+sold.raid_notification=Article vendu ! {0} x{1} = {2} pièces (Vous les recevrez au retour à la base)
+sold.single_notification=Article vendu : {0} x{1} = {2} ₽
+sold.multiple_notification={0} articles vendus, total de {1} ₽
+
+# ========== Connexion WebSocket ==========
+websocket.disconnected=Connexion au marché perdue
+websocket.reconnected=Connexion au marché rétablie
+
+# ========== Étiquettes du panneau d'annonce ==========
+listing_panel.market_price=Prix de référence du marché
+listing_panel.market_price_loading=Chargement...
+listing_panel.original_price=Prix d'origine
+listing_panel.recommended_price=Prix recommandé
+listing_panel.price_change=Variation de prix
+listing_panel.price_adjustment=Ajustement de prix
+listing_panel.durability_adjustment=Ajustement de durabilité
+listing_panel.listing_count=Nombre en vente
+listing_panel.highest_price=Prix le plus élevé
+listing_panel.lowest_price=Prix le plus bas
+listing_panel.average_price=Prix moyen
+listing_panel.storage_quantity=Quantité en stock
+listing_panel.sell_quantity=Quantité à vendre
+listing_panel.sell_price=Prix unitaire
+listing_panel.tax_fee=Frais de taxe
+listing_panel.total_amount=Total
+listing_panel.button_text=Mettre en vente
+listing_panel.computing=Calcul en cours...
+listing_panel.no_data=Aucune donnée
+
+# ========== Lié aux annonces ==========
+listing.success_notification=Mise en vente réussie ! {0} x{1}
+listing.error_cash=Impossible de mettre en vente des articles en espèces
+listing.error_container=Veuillez vider le conteneur avant de mettre en vente
+listing.error_attachments=Veuillez retirer les accessoires avant de mettre en vente
+listing.error_insufficient_funds=Solde insuffisant pour payer les frais de taxe
+listing.error_insufficient_quantity=Quantité insuffisante en stock
+listing.failed_generic=Échec de la mise en vente, veuillez réessayer
+listing.limit_exceeded=Impossible de mettre plus d'articles en vente (limite atteinte)
+listing.nonce_already_used=Demande de mise en vente en double, veuillez réessayer
+
+# ========== Erreurs générales ==========
+error.generic=Une erreur s'est produite, veuillez réessayer
+error.load_failed=Échec du chargement, veuillez réessayer
+error.login_nonce_used=Demande de connexion en double, veuillez réessayer
+
+# ========== Pagination ==========
+pagination.text=Page {0}, total de {1} articles
+
+# ========== Chargement des articles ==========
+items.loaded={0} articles chargés
+
+# ========== État du menu principal ==========
+status.checking_server=Vérification de l'état du serveur...
+status.server_online=[Duck Market] Serveur en ligne
+status.server_offline=[Duck Market] Serveur hors ligne
+status.steam_id_not_found=[Duck Market] Impossible d'obtenir l'ID Steam
+
+# ========== Options d'interaction ==========
+interaction.open_duck_market=Ouvrir Duck Market
+
