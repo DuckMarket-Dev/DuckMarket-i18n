@@ -1,0 +1,110 @@
+# Duck Market - Vietnamese
+# Format: key=value
+
+# ========== Giao diện chính ==========
+market.title=Duck Market
+market.browse=Cửa hàng
+market.my_listings=Danh sách của tôi
+market.per_item=Vật phẩm
+market.seller=Seller
+market.mod_item=Vật phẩm MOD
+
+# ========== Nút lọc ==========
+filter.market=Bán
+filter.purchase=Mua
+filter.purchase_placeholder=Lệnh mua sắp tới...
+
+# ========== Thanh tìm kiếm ==========
+search.button=Tìm kiếm
+search.refresh=Làm mới
+search.placeholder=Tìm vật phẩm...
+search.item_name_placeholder=Tìm theo tên vật phẩm...
+search.advanced_filter_placeholder=Lọc...
+
+# ========== Nút mua ==========
+buy.button=Mua
+buy.title=Số lượng
+buy.confirm=Xác nhận
+buy.success=Mua thành công
+buy.failed=Mua thất bại
+buy.expired=Hết hạn
+buy.sold_out=Đã bán hết
+
+# ========== Đăng, thu hồi ==========
+listing.button=Đăng vật phẩm
+delist.button=Thu hồi vật phẩm
+delist.success_label=Đã thu hồi
+delist.success=Thu hồi vật phẩm thành công! {0} x{1} đã gửi về tủ đồ
+delist.failed=Thu hồi vật phẩm thất bại, hãy thử lại
+
+# ========== Thông báo giao dịch ==========
+purchase.success_notification={0} x{1} đã được gửi đến điểm tập kết
+purchase.failed_notification=Mua thất bại, hãy thử lại
+purchase.stock_label=Tồn kho
+
+# Menu click chuột phải
+menu.filter=Lọc
+menu.filter_coming_soon=Tính năng lọc đang phát triển
+
+# ========== Sold Notifications ==========
+sold.base_notification=Vật phẩm đã bán! {0} x{1} = {2} coins (Người mua: {3})
+sold.raid_notification=Vật phẩm đã bán! {0} x{1} = {2} coins (Bạn sẽ nhận được tiền khi trở về căn cứ)
+sold.single_notification=Vật phẩm đã bán: {0} x{1} = {2} ₽
+sold.multiple_notification={0} vật phẩm đã bán, tổng cộng {1} ₽
+
+# ========== WebSocket Connection ==========
+websocket.disconnected=Mất kết nối với Market
+websocket.reconnected=Kết nối đã được khôi phục
+
+# ==========Bảng điều khiển đăng bán==========
+listing_panel.market_price=Giá thị trường
+listing_panel.market_price_loading=Đang tải...
+listing_panel.original_price=Giá cơ sở
+listing_panel.recommended_price=Giá khuyến nghị
+listing_panel.price_change=Thay đổi giá
+listing_panel.price_adjustment=Điều chỉnh giá
+listing_panel.durability_adjustment=Điều chỉnh độ bền
+listing_panel.listing_count=Danh sách
+listing_panel.highest_price=Giá cao nhất
+listing_panel.lowest_price=Giá thấp nhất
+listing_panel.average_price=Giá trung bình
+listing_panel.storage_quantity=Trong kho
+listing_panel.sell_quantity=Số lượng bán
+listing_panel.sell_price=Giá bán
+listing_panel.tax_fee=Phí
+listing_panel.total_amount=Tổng cộng
+listing_panel.button_text=Đăng bán
+listing_panel.computing=Đang tính toán...
+listing_panel.no_data=Không có dữ liệu
+
+# ========== Listing Related ==========
+listing.success_notification=Đăng thành công! {0} x{1}
+listing.error_cash=Không thể đăng bán tiền mặt.
+listing.error_container=Làm trống thùng chứa trước khi đăng bán!
+listing.error_attachments=Gỡ phụ kiện trước khi đăng bán!
+listing.error_insufficient_funds=Không đủ tiền trả phí
+listing.error_insufficient_quantity=Không đủ số lượng trong kho
+listing.failed_generic=Đăng bán thất bại, hãy thử lại.
+listing.limit_exceeded=Không thể đăng bán (Đạt giới hạn số lượng)
+listing.nonce_already_used=Yêu cầu bán trùng lặp, hãy thử lại.
+
+# ========== General Errors ==========
+error.generic=Đã có lỗi xảy ra, hãy thử lại
+error.load_failed=Tải thất bại, hãy thử lại
+error.login_nonce_used=Yêu cầu đăng nhập không hợp lệ, hãy thử lại
+
+# ========== Pagination ==========
+pagination.text=Trang {0}, tổng {1} vật phẩm
+
+# ========== Items Loaded ==========
+items.loaded=Đã tải {0} vật phẩm
+
+# ========== Main Menu Status ==========
+status.checking_server=Đang kiểm tra tình trạng máy chủ...
+status.server_online=[Duck Market] Server Online
+status.server_offline=[Duck Market] Server Offline
+status.steam_id_not_found=[Duck Market] Không lấy được SteamID
+
+# ========== Interaction Options ==========
+interaction.open_duck_market=Mở Duck Market
+

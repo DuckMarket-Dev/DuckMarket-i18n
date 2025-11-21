@@ -1,0 +1,185 @@
+# 鸭鸭市场 - 中文简体 (Simplified Chinese)
+# 格式: key=value
+
+# ========== 主界面 ==========
+market.title=鸭鸭市场
+market.browse=浏览市场
+market.my_listings=我的商品
+market.per_item=每件物品
+market.seller=卖家
+market.mod_item=MOD 商品
+
+# ========== 筛选按钮 ==========
+filter.market=出售
+filter.purchase=求购
+filter.purchase_placeholder=求购功能将在稍后上线...
+
+# ========== 搜索栏 ==========
+search.button=搜索
+search.refresh=刷新列表
+search.placeholder=搜索商品...
+search.item_name_placeholder=搜索商品名称...
+search.advanced_filter_placeholder=高级筛选...
+
+# ========== 购买按钮 ==========
+buy.button=购买
+buy.title=你想要购买多少？
+buy.confirm=确认购买
+buy.success=购买成功
+buy.failed=购买失败
+buy.processing=正在处理
+buy.expired=已过期
+buy.sold_out=商品已被购买
+
+# ========== 上架/下架按钮 ==========
+listing.button=上架
+delist.button=下架
+delist.success_label=下架成功
+delist.success=下架成功！{0} x{1} 已存入自提柜
+delist.failed=下架失败，请重试
+
+# ========== 购买通知 ==========
+purchase.success_notification={0} x{1} 已发送到马蜂自提点
+purchase.failed_notification=购买失败，请重试
+purchase.stock_label=库存
+
+# 右键菜单
+menu.filter=筛选
+menu.no_item_selected=未选中物品
+menu.filter_loading=正在加载市场数据...
+menu.filter_success=找到 {0} 个商品
+
+# 物品数量显示
+item.quantity_unavailable=({0}个不可上架)
+item.not_found_in_storage=主仓库中未找到该物品
+menu.filter_no_result=市场上没有此商品
+menu.filter_error=筛选失败，请重试
+
+# 上架限制
+listing.need_black_market=需要建立黑市建筑才能上架物品
+
+# 市场筛选
+market.item_not_found=物品 {0} 市场上没有找到哦
+
+# ==================== 选项设置 ====================
+# 标签页
+options.tab.duckmarket=鸭鸭市场
+
+# 分组标题
+options.section.notifications=通知设置
+options.section.market=市场设置
+options.section.ui=界面设置
+options.section.advanced=高级设置
+
+# 通知设置
+options.enable_notifications=启用售出通知
+options.notification_sound=通知声音
+options.notification_duration=通知显示时长
+
+# 市场设置
+options.auto_refresh_interval=自动刷新间隔
+options.default_sort_mode=默认排序方式
+options.show_owned_only_default=默认仅显示拥有的物品
+
+# UI设置
+options.ui_opacity=界面透明度
+options.font_size=字体大小
+
+# 高级设置
+options.enable_debug_log=启用调试日志
+options.websocket_reconnect_interval=WebSocket重连间隔
+
+# ==================== 游戏选项面板专用 Key (OptionsUIEntry 组件会自动添加 "Options_" 前缀) ====================
+# 卖家信息 (只读显示)
+Options_DuckMarket_SteamId=Steam ID
+
+# 通知设置
+Options_DuckMarket_EnableNotifications=启用售出通知
+Options_DuckMarket_NotificationSound=通知声音
+Options_DuckMarket_NotificationDuration=通知显示时长
+
+# 高级设置
+Options_DuckMarket_EnableDebugLog=启用调试日志
+
+# 辅助文本
+options.seconds=秒
+options.auto_refresh.disabled=关闭
+options.sort.price_asc=价格升序
+options.sort.price_desc=价格降序
+options.sort.time_desc=时间最新
+options.font.small=小
+options.font.medium=中
+options.font.large=大
+market.show_owned_only=仅拥有
+
+# ========== 售出通知 ==========
+sold.base_notification=商品已售出！{0} x{1} = {2} 金币 (买家: {3})
+sold.raid_notification=商品已售出！{0} x{1} = {2} 金币 (返回基地后获得)
+sold.single_notification=商品已售出：{0} x{1} = {2} ₽
+sold.multiple_notification={0} 件商品已售出，共获得 {1} ₽
+
+# ========== WebSocket 连接 ==========
+websocket.disconnected=市场连接已断开
+websocket.reconnected=市场连接已恢复
+
+# ========== 上架界面标签 ==========
+listing_panel.market_price=市场参考价
+listing_panel.market_price_loading=加载中...
+listing_panel.original_price=原价
+listing_panel.recommended_price=推荐价格
+listing_panel.price_change=价格涨幅
+listing_panel.price_adjustment=价格修正
+listing_panel.durability_adjustment=耐久修正
+listing_panel.listing_count=在售数量
+listing_panel.highest_price=最高售价
+listing_panel.lowest_price=最低售价
+listing_panel.average_price=平均售价
+listing_panel.storage_quantity=仓库数量
+listing_panel.sell_quantity=挂单数量
+listing_panel.sell_price=挂单单价
+listing_panel.tax_fee=税费
+listing_panel.total_amount=总共
+listing_panel.button_text=上架商品
+listing_panel.computing=计算中...
+listing_panel.no_data=暂无数据
+
+# ========== 上架相关 ==========
+listing.success_notification=上架成功！{0} x{1}
+listing.error_cash=无法上架现金物品
+listing.error_container=请先清空容器内的物品再上架
+listing.error_attachments=请先卸下配件再上架
+listing.error_insufficient_funds=余额不足支付税费
+listing.error_insufficient_quantity=仓库数量不足
+listing.failed_generic=上架失败，请重试
+listing.limit_exceeded=无法上架更多商品（已达上限）
+listing.nonce_already_used=重复的上架请求，请重试
+
+# ========== 通用错误 ==========
+error.generic=发生错误，请重试
+error.load_failed=加载失败，请重试
+error.login_nonce_used=重复的登录请求，请重试
+
+# ========== 分页 ==========
+pagination.text=第 {0} 页，共 {1} 项
+
+# ========== 物品加载 ==========
+items.loaded=已加载物品 {0} 个
+
+# ========== 主菜单状态 ==========
+status.checking_server=正在检查服务器状态...\n交流群：1042457462
+status.logging_in=[鸭鸭市场] 正在登录，请稍候...\n交流群：1042457462
+status.server_online=[鸭鸭市场] 服务器在线\n交流群：1042457462
+status.server_offline=[鸭鸭市场] 服务器离线\n交流群：1042457462
+status.click_to_login=[鸭鸭市场] 请点击此处登录\n交流群：1042457462
+status.waiting_browser_login=[鸭鸭市场] 等待浏览器登录...\n交流群：1042457462
+status.steam_id_not_found=[鸭鸭市场] 无法获取 Steam ID\n交流群：1042457462
+
+# ========== 交互选项 ==========
+interaction.open_duck_market=鸭鸭市场
+
+# ========== 网页登录对话框 ==========
+weblogin.dialog_title=正在等待网页登录
+weblogin.dialog_message=如果网页没有自动打开请点击下方复制链接按钮自行访问登录
+weblogin.copy_link_button=复制链接
+weblogin.cancel_button=取消
+

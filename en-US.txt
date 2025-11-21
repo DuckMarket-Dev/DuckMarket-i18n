@@ -1,0 +1,180 @@
+# Duck Market - English
+# Format: key=value
+
+# ========== Main Interface ==========
+market.title=Duck Market
+market.browse=Browse Market
+market.my_listings=My Listings
+market.per_item=Per Item
+market.seller=Seller
+market.mod_item=MOD Item
+
+# ========== Filter Buttons ==========
+filter.market=Sell
+filter.purchase=Buy
+filter.purchase_placeholder=Buy Orders coming soon...
+
+# ========== Search Bar ==========
+search.button=Search
+search.refresh=Refresh
+search.placeholder=Search items...
+search.item_name_placeholder=Search item name...
+search.advanced_filter_placeholder=Advanced filter...
+
+# ========== Purchase Buttons ==========
+buy.button=Purchase
+buy.title=How many do you want to buy?
+buy.confirm=Confirm Purchase
+buy.success=Purchase Successful
+buy.failed=Purchase Failed
+buy.expired=Expired
+buy.sold_out=Item Sold Out
+
+# ========== List/Delist Button ==========
+listing.button=List Item
+delist.button=Delist
+delist.success_label=Delisted
+delist.success=Delisted successfully! {0} x{1} sent to locker
+delist.failed=Failed to delist, please try again
+
+# ========== Purchase Notifications ==========
+purchase.success_notification={0} x{1} has been sent to the pickup point
+purchase.failed_notification=Purchase failed, please try again
+purchase.stock_label=Stock
+
+# Right-click Menu
+menu.filter=Filter
+menu.filter_coming_soon=Filter feature coming soon
+
+# Item quantity display
+item.quantity_unavailable=({0} unavailable)
+item.not_found_in_storage=Item not found in main storage
+
+# Listing Restrictions
+listing.need_black_market=You need to build a Black Market to list items
+
+# Market Filtering
+market.item_not_found=Item {0} not found on the market
+market.show_owned_only=Owned Only
+
+# ==================== Options Settings ====================
+# Tab
+options.tab.duckmarket=Duck Market
+
+# Section Headers
+options.section.notifications=Notifications
+options.section.market=Market
+options.section.ui=Interface
+options.section.advanced=Advanced
+
+# Notification Settings
+options.enable_notifications=Enable Sale Notifications
+options.notification_sound=Notification Sound
+options.notification_duration=Notification Duration
+
+# Market Settings
+options.auto_refresh_interval=Auto Refresh Interval
+options.default_sort_mode=Default Sort Mode
+options.show_owned_only_default=Show Owned Only by Default
+
+# UI Settings
+options.ui_opacity=UI Opacity
+options.font_size=Font Size
+
+# Advanced Settings
+options.enable_debug_log=Enable Debug Log
+options.websocket_reconnect_interval=WebSocket Reconnect Interval
+
+# ==================== Game Options Panel Keys (OptionsUIEntry automatically adds "Options_" prefix) ====================
+# Seller Information (Read-only Display)
+Options_DuckMarket_SteamId=Steam ID
+
+# Notification Settings
+Options_DuckMarket_EnableNotifications=Enable Sale Notifications
+Options_DuckMarket_NotificationSound=Notification Sound
+Options_DuckMarket_NotificationDuration=Notification Duration
+
+# Advanced Settings
+Options_DuckMarket_EnableDebugLog=Enable Debug Log
+
+# Helper Text
+options.seconds=s
+options.auto_refresh.disabled=Disabled
+options.sort.price_asc=Price: Low to High
+options.sort.price_desc=Price: High to Low
+options.sort.time_desc=Newest First
+options.font.small=Small
+options.font.medium=Medium
+options.font.large=Large
+
+# ========== Sold Notifications ==========
+sold.base_notification=Item Sold! {0} x{1} = {2} coins (Buyer: {3})
+sold.raid_notification=Item Sold! {0} x{1} = {2} coins (You will receive it when returning to base)
+sold.single_notification=Item sold: {0} x{1} = {2} ₽
+sold.multiple_notification={0} items sold, total {1} ₽
+
+# ========== WebSocket Connection ==========
+websocket.disconnected=Market connection lost
+websocket.reconnected=Market connection restored
+
+# ========== Listing Panel Labels ==========
+listing_panel.market_price=Market Price
+listing_panel.market_price_loading=Loading...
+listing_panel.original_price=Base Price
+listing_panel.recommended_price=Recommended Price
+listing_panel.price_change=Price Change
+listing_panel.price_adjustment=Price Adjustment
+listing_panel.durability_adjustment=Durability Adjustment
+listing_panel.listing_count=Listings
+listing_panel.highest_price=Highest Price
+listing_panel.lowest_price=Lowest Price
+listing_panel.average_price=Average Price
+listing_panel.storage_quantity=In Storage
+listing_panel.sell_quantity=List Quantity
+listing_panel.sell_price=List Price
+listing_panel.tax_fee=Tax
+listing_panel.total_amount=Total
+listing_panel.button_text=List Item
+listing_panel.computing=Computing...
+listing_panel.no_data=No Data
+
+# ========== Listing Related ==========
+listing.success_notification=Listed successfully! {0} x{1}
+listing.error_cash=Cannot list cash items
+listing.error_container=Please empty the container before listing
+listing.error_attachments=Please remove attachments before listing
+listing.error_insufficient_funds=Insufficient funds for tax
+listing.error_insufficient_quantity=Insufficient quantity in storage
+listing.failed_generic=Listing failed, please try again
+listing.limit_exceeded=Unable to list more items (limit reached)
+listing.nonce_already_used=Duplicate listing request, please try again
+
+# ========== General Errors ==========
+error.generic=An error occurred, please try again
+error.load_failed=Failed to load, please try again
+error.login_nonce_used=Duplicate login request, please try again
+
+# ========== Pagination ==========
+pagination.text=Page {0}, total {1} items
+
+# ========== Items Loaded ==========
+items.loaded=Loaded {0} items
+
+# ========== Main Menu Status ==========
+status.checking_server=Checking server status...
+status.logging_in=[Duck Market] Logging in, please wait...
+status.server_online=[Duck Market] Server Online
+status.server_offline=[Duck Market] Server Offline
+status.click_to_login=[Duck Market] Click here to login
+status.waiting_browser_login=[Duck Market] Waiting for browser login...
+status.steam_id_not_found=[Duck Market] Unable to get Steam ID
+
+# ========== Interaction Options ==========
+interaction.open_duck_market=Open Duck Market
+
+# ========== Web Login Dialog ==========
+weblogin.dialog_title=Waiting for Web Login
+weblogin.dialog_message=If the webpage doesn't open automatically, please click the copy link button below to visit and login
+weblogin.copy_link_button=Copy Link
+weblogin.cancel_button=Cancel
+
