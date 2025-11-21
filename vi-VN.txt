@@ -44,7 +44,72 @@ purchase.stock_label=Tồn kho
 
 # Menu click chuột phải
 menu.filter=Lọc
-menu.filter_coming_soon=Tính năng lọc đang phát triển
+menu.no_item_selected=Không chọn vật phẩm
+menu.filter_loading=Đang tải dữ liệu thị trường...
+menu.filter_success=Tìm thấy {0} vật phẩm
+menu.filter_no_result=Không có vật phẩm này trên thị trường
+menu.filter_error=Lọc thất bại, vui lòng thử lại
+
+# Hiển thị số lượng vật phẩm
+item.quantity_unavailable=({0} không thể bán)
+item.not_found_in_storage=Không tìm thấy vật phẩm trong kho chính
+
+# Hạn chế đăng bán
+listing.need_black_market=Cần xây dựng chợ đen để đăng bán vật phẩm
+
+# Lọc thị trường
+market.item_not_found=Không tìm thấy vật phẩm {0} trên thị trường
+
+# ==================== Cài đặt tùy chọn ====================
+# Tab
+options.tab.duckmarket=Duck Market
+
+# Tiêu đề nhóm
+options.section.notifications=Cài đặt thông báo
+options.section.market=Cài đặt thị trường
+options.section.ui=Cài đặt giao diện
+options.section.advanced=Cài đặt nâng cao
+
+# Cài đặt thông báo
+options.enable_notifications=Bật thông báo bán hàng
+options.notification_sound=Âm thanh thông báo
+options.notification_duration=Thời gian hiển thị thông báo
+
+# Cài đặt thị trường
+options.auto_refresh_interval=Khoảng thời gian tự động làm mới
+options.default_sort_mode=Chế độ sắp xếp mặc định
+options.show_owned_only_default=Mặc định chỉ hiển thị vật phẩm sở hữu
+
+# Cài đặt giao diện
+options.ui_opacity=Độ trong suốt giao diện
+options.font_size=Kích thước phông chữ
+
+# Cài đặt nâng cao
+options.enable_debug_log=Bật nhật ký gỡ lỗi
+options.websocket_reconnect_interval=Khoảng thời gian kết nối lại WebSocket
+
+# ==================== Khóa đặc biệt cho bảng tùy chọn game ====================
+# Thông tin người bán (hiển thị chỉ đọc)
+Options_DuckMarket_SteamId=Steam ID
+
+# Cài đặt thông báo
+Options_DuckMarket_EnableNotifications=Bật thông báo bán hàng
+Options_DuckMarket_NotificationSound=Âm thanh thông báo
+Options_DuckMarket_NotificationDuration=Thời gian hiển thị thông báo
+
+# Cài đặt nâng cao
+Options_DuckMarket_EnableDebugLog=Bật nhật ký gỡ lỗi
+
+# Văn bản phụ trợ
+options.seconds=giây
+options.auto_refresh.disabled=Tắt
+options.sort.price_asc=Giá tăng dần
+options.sort.price_desc=Giá giảm dần
+options.sort.time_desc=Mới nhất
+options.font.small=Nhỏ
+options.font.medium=Trung bình
+options.font.large=Lớn
+market.show_owned_only=Chỉ sở hữu
 
 # ========== Sold Notifications ==========
 sold.base_notification=Vật phẩm đã bán! {0} x{1} = {2} coins (Người mua: {3})

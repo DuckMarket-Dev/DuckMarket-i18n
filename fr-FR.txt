@@ -51,6 +51,67 @@ menu.filter_success={0} articles trouvés
 menu.filter_no_result=Cet article n'est pas disponible sur le marché
 menu.filter_error=Échec du filtre, veuillez réessayer
 
+# Affichage de la quantité d'articles
+item.quantity_unavailable=({0} non vendables)
+item.not_found_in_storage=Article non trouvé dans l'entrepôt principal
+
+# Restrictions d'annonce
+listing.need_black_market=Il faut construire un marché noir pour mettre des articles en vente
+
+# Filtrage du marché
+market.item_not_found=L'article {0} n'a pas été trouvé sur le marché
+
+# ==================== Paramètres d'options ====================
+# Onglets
+options.tab.duckmarket=Duck Market
+
+# Titres de groupe
+options.section.notifications=Paramètres de notification
+options.section.market=Paramètres du marché
+options.section.ui=Paramètres d'interface
+options.section.advanced=Paramètres avancés
+
+# Paramètres de notification
+options.enable_notifications=Activer les notifications de vente
+options.notification_sound=Son de notification
+options.notification_duration=Durée d'affichage des notifications
+
+# Paramètres du marché
+options.auto_refresh_interval=Intervalle de rafraîchissement automatique
+options.default_sort_mode=Mode de tri par défaut
+options.show_owned_only_default=Afficher uniquement les articles possédés par défaut
+
+# Paramètres d'interface
+options.ui_opacity=Opacité de l'interface
+options.font_size=Taille de police
+
+# Paramètres avancés
+options.enable_debug_log=Activer le journal de débogage
+options.websocket_reconnect_interval=Intervalle de reconnexion WebSocket
+
+# ==================== Clés spéciales pour le panneau d'options du jeu ====================
+# Informations sur le vendeur (affichage en lecture seule)
+Options_DuckMarket_SteamId=Steam ID
+
+# Paramètres de notification
+Options_DuckMarket_EnableNotifications=Activer les notifications de vente
+Options_DuckMarket_NotificationSound=Son de notification
+Options_DuckMarket_NotificationDuration=Durée d'affichage des notifications
+
+# Paramètres avancés
+Options_DuckMarket_EnableDebugLog=Activer le journal de débogage
+
+# Texte auxiliaire
+options.seconds=secondes
+options.auto_refresh.disabled=Désactivé
+options.sort.price_asc=Prix croissant
+options.sort.price_desc=Prix décroissant
+options.sort.time_desc=Plus récent
+options.font.small=Petit
+options.font.medium=Moyen
+options.font.large=Grand
+market.show_owned_only=Possédés uniquement
+
 # ========== Notifications de vente ==========
 sold.base_notification=Article vendu ! {0} x{1} = {2} pièces (Acheteur : {3})
 sold.raid_notification=Article vendu ! {0} x{1} = {2} pièces (Vous les recevrez au retour à la base)
