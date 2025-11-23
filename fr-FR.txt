@@ -81,7 +81,8 @@ options.auto_refresh_interval=Intervalle de rafraîchissement automatique
 options.default_sort_mode=Mode de tri par défaut
 options.show_owned_only_default=Afficher uniquement les articles possédés par défaut
 
-# Paramètres d'interface
+# Paramètres UI
+options.show_recommended_price=Afficher le prix recommandé
 options.ui_opacity=Opacité de l'interface
 options.font_size=Taille de police
 
@@ -97,6 +98,9 @@ Options_DuckMarket_SteamId=Steam ID
 Options_DuckMarket_EnableNotifications=Activer les notifications de vente
 Options_DuckMarket_NotificationSound=Son de notification
 Options_DuckMarket_NotificationDuration=Durée d'affichage des notifications
+
+# Paramètres UI
+Options_DuckMarket_ShowRecommendedPrice=Afficher le prix recommandé
 
 # Paramètres avancés
 Options_DuckMarket_EnableDebugLog=Activer le journal de débogage

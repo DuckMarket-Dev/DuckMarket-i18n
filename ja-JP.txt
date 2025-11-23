@@ -87,6 +87,7 @@ options.default_sort_mode=デフォルトソートモード
 options.show_owned_only_default=デフォルトで所有アイテムのみ表示
 
 # UI設定
+options.show_recommended_price=推奨価格を表示
 options.ui_opacity=UI透明度
 options.font_size=フォントサイズ
 
@@ -102,6 +103,9 @@ Options_DuckMarket_SteamId=Steam ID
 Options_DuckMarket_EnableNotifications=販売通知を有効にする
 Options_DuckMarket_NotificationSound=通知音
 Options_DuckMarket_NotificationDuration=通知表示時間
+
+# UI設定
+Options_DuckMarket_ShowRecommendedPrice=推奨価格を表示
 
 # 高度な設定
 Options_DuckMarket_EnableDebugLog=デバッグログを有効にする

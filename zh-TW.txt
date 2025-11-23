@@ -82,7 +82,8 @@ options.default_sort_mode=默認排序方式
 options.show_owned_only_default=默認僅顯示擁有的物品
 
 # UI設置
-options.ui_opacity=界面透明度
+options.show_recommended_price=顯示推薦價格
+options.ui_opacity=介面透明度
 options.font_size=字體大小
 
 # 高級設置
@@ -98,7 +99,10 @@ Options_DuckMarket_EnableNotifications=啟用售出通知
 Options_DuckMarket_NotificationSound=通知聲音
 Options_DuckMarket_NotificationDuration=通知顯示時長
 
-# 高級設置
+# UI設定
+Options_DuckMarket_ShowRecommendedPrice=顯示推薦價格
+
+# 進階設定
 Options_DuckMarket_EnableDebugLog=啟用除錯日誌
 
 # 輔助文本

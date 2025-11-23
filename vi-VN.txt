@@ -80,7 +80,8 @@ options.auto_refresh_interval=Khoảng thời gian tự động làm mới
 options.default_sort_mode=Chế độ sắp xếp mặc định
 options.show_owned_only_default=Mặc định chỉ hiển thị vật phẩm sở hữu
 
-# Cài đặt giao diện
+# Cài đặt UI
+options.show_recommended_price=Hiển thị giá đề xuất
 options.ui_opacity=Độ trong suốt giao diện
 options.font_size=Kích thước phông chữ
 
@@ -96,6 +97,9 @@ Options_DuckMarket_SteamId=Steam ID
 Options_DuckMarket_EnableNotifications=Bật thông báo bán hàng
 Options_DuckMarket_NotificationSound=Âm thanh thông báo
 Options_DuckMarket_NotificationDuration=Thời gian hiển thị thông báo
+
+# Cài đặt UI
+Options_DuckMarket_ShowRecommendedPrice=Hiển thị giá đề xuất
 
 # Cài đặt nâng cao
 Options_DuckMarket_EnableDebugLog=Bật nhật ký gỡ lỗi

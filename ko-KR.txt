@@ -87,6 +87,7 @@ options.default_sort_mode=기본 정렬 모드
 options.show_owned_only_default=기본적으로 보유 아이템만 표시
 
 # UI 설정
+options.show_recommended_price=추천 가격 표시
 options.ui_opacity=UI 투명도
 options.font_size=글꼴 크기
 
@@ -102,6 +103,9 @@ Options_DuckMarket_SteamId=Steam ID
 Options_DuckMarket_EnableNotifications=판매 알림 활성화
 Options_DuckMarket_NotificationSound=알림 소리
 Options_DuckMarket_NotificationDuration=알림 표시 시간
+
+# UI 설정
+Options_DuckMarket_ShowRecommendedPrice=추천 가격 표시
 
 # 고급 설정
 Options_DuckMarket_EnableDebugLog=디버그 로그 활성화

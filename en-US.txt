@@ -78,6 +78,7 @@ options.default_sort_mode=Default Sort Mode
 options.show_owned_only_default=Show Owned Only by Default
 
 # UI Settings
+options.show_recommended_price=Show Recommended Price
 options.ui_opacity=UI Opacity
 options.font_size=Font Size
 
@@ -89,10 +90,13 @@ options.websocket_reconnect_interval=WebSocket Reconnect Interval
 # Seller Information (Read-only Display)
 Options_DuckMarket_SteamId=Steam ID
 
-# Notification Settings
+# Notifications
 Options_DuckMarket_EnableNotifications=Enable Sale Notifications
 Options_DuckMarket_NotificationSound=Notification Sound
-Options_DuckMarket_NotificationDuration=Notification Duration
+Options_DuckMarket_NotificationDuration=Notification Display Duration
+
+# UI Settings
+Options_DuckMarket_ShowRecommendedPrice=Show Recommended Price
 
 # Advanced Settings
 Options_DuckMarket_EnableDebugLog=Enable Debug Log

@@ -82,6 +82,7 @@ options.default_sort_mode=默认排序方式
 options.show_owned_only_default=默认仅显示拥有的物品
 
 # UI设置
+options.show_recommended_price=显示推荐价格
 options.ui_opacity=界面透明度
 options.font_size=字体大小
 
@@ -97,6 +98,9 @@ Options_DuckMarket_SteamId=Steam ID
 Options_DuckMarket_EnableNotifications=启用售出通知
 Options_DuckMarket_NotificationSound=通知声音
 Options_DuckMarket_NotificationDuration=通知显示时长
+
+# UI设置
+Options_DuckMarket_ShowRecommendedPrice=显示推荐价格
 
 # 高级设置
 Options_DuckMarket_EnableDebugLog=启用调试日志
