@@ -1,0 +1,317 @@
+# Duck Market - Русский (Russian)
+# Формат: key=value
+
+# ========== Главный интерфейс ==========
+market.title=Duck Market
+market.browse=Просмотр рынка
+market.my_listings=Мои лоты
+market.per_item=За штуку
+market.seller=Продавец
+market.buyer=Покупатель
+market.demand=Спрос
+market.fulfilled=Выполнен
+market.expired=Истек
+market.mod_item=Предмет из мода
+
+# ========== Кнопки фильтра ==========
+filter.market=Продажа
+filter.purchase=Покупка
+filter.purchase_placeholder=Заказы на покупку скоро появятся...
+
+# ========== Строка поиска ==========
+search.button=Поиск
+search.refresh=Обновить
+search.placeholder=Поиск предметов...
+search.item_name_placeholder=Поиск по названию...
+search.advanced_filter_placeholder=Расширенный фильтр...
+
+# ========== Кнопки поставки ==========
+supply.button=Поставить
+supply.no_stock=Нет в наличии
+supply.cancel=Отмена
+market.supply_button=Поставить
+market.no_stock_button=Нет в наличии
+market.cancel_order_button=Отмена
+market.no_purchase_orders=Нет доступных заказов на покупку
+market.purchase_order_not_found=На рынке нет заказов на покупку для {0}
+market.no_listings=Нет доступных лотов
+market.item_not_found=Не найдено лотов для {0}
+market.no_my_purchase_orders=Нет заказов на покупку
+market.no_my_sell_listings=Нет лотов на продажу
+
+# ========== Кнопки покупки ==========
+buy.button=Купить
+buy.title=Сколько вы хотите купить?
+buy.confirm=Подтвердить покупку
+buy.success=Покупка успешна
+buy.failed=Ошибка покупки
+buy.processing=Обработка
+buy.expired=Истек
+buy.sold_out=Товар распродан
+
+# ========== Кнопки размещения/снятия ==========
+listing.button=Выставить
+delist.button=Снять
+delist.success_label=Снято
+delist.success=Успешно снято! {0} x{1} отправлено в шкафчик
+delist.failed=Не удалось снять, попробуйте снова
+
+# ========== Уведомления о покупке ==========
+purchase.success_notification={0} x{1} отправлено в пункт выдачи
+purchase.failed_notification=Ошибка покупки, попробуйте снова
+purchase.stock_label=Запас
+
+# ========== Контекстное меню ==========
+menu.filter=Фильтр
+menu.no_item_selected=Предмет не выбран
+menu.filter_loading=Загрузка данных рынка...
+menu.filter_success=Найдено {0} товаров
+
+# ========== Отображение количества предметов ==========
+item.quantity_unavailable=({0} недоступно)
+item.not_found_in_storage=Предмет не найден на главном складе
+menu.filter_no_result=Товар отсутствует на рынке
+menu.filter_error=Ошибка фильтрации, попробуйте снова
+
+# ========== Ограничения размещения ==========
+listing.need_black_market=Вам нужно построить Черный рынок, чтобы выставлять там предметы
+
+# ========== Фильтр рынка ==========
+market.item_not_found=Предмет {0} не найден на рынке
+
+# ==================== Настройки ====================
+# Вкладка
+options.tab.duckmarket=Duck Market
+
+# Заголовки разделов
+options.section.notifications=Уведомления
+options.section.market=Рынок
+options.section.ui=Интерфейс
+options.section.advanced=Дополнительно
+
+# Настройки уведомлений
+options.enable_notifications=Включить уведомления о продаже
+options.notification_sound=Звук уведомления
+options.notification_duration=Длительность уведомления
+
+# Настройки рынка
+options.auto_refresh_interval=Интервал автообновления
+options.default_sort_mode=Сортировка по-умолчанию
+options.show_owned_only_default=Показывать только имеющиеся по-умолчанию
+
+# Настройки интерфейса
+options.show_recommended_price=Показывать рекомендуемую цену
+options.ui_opacity=Прозрачность интерфейса
+options.font_size=Размер шрифта
+
+# Дополнительные настройки
+options.enable_debug_log=Включить журнал отладки (логи)
+options.websocket_reconnect_interval=Интервал переподключения WebSocket
+
+# ==================== Ключи панели настроек игры ====================
+# Информация о продавце (только чтение)
+Options_DuckMarket_SteamId=Steam ID
+
+# Настройки уведомлений
+Options_DuckMarket_EnableNotifications=Включить уведомления о продаже
+Options_DuckMarket_NotificationSound=Звук уведомления
+Options_DuckMarket_NotificationDuration=Длительность отображения уведомления
+
+# Настройки интерфейса
+Options_DuckMarket_ShowRecommendedPrice=Показывать рекомендуемую цену
+
+# Дополнительные настройки
+Options_DuckMarket_EnableDebugLog=Включить журнал отладки
+
+# Вспомогательный текст
+options.seconds=сек
+options.auto_refresh.disabled=Отключено
+options.sort.price_asc=Цена: по возрастанию
+options.sort.price_desc=Цена: по убыванию
+options.sort.time_desc=Сначала новые
+options.font.small=Маленький
+options.font.medium=Средний
+options.font.large=Большой
+market.show_owned_only=Только имеющиеся
+
+# ========== Уведомления о продаже ==========
+sold.base_notification=Товар продан! {0} x{1} = {2} монет (Покупатель: {3})
+sold.raid_notification=Товар продан! {0} x{1} = {2} монет (Вы получите их по возвращении на базу)
+sold.single_notification=Товар продан: {0} x{1} = {2} 
+sold.multiple_notification={0} товаров продано, всего {1} 
+
+# ========== Подключение WebSocket ==========
+websocket.disconnected=Связь с рынком потеряна
+websocket.reconnected=Связь с рынком восстановлена
+
+# ========== Метки панели размещения ==========
+listing_panel.market_price=Рыночная цена
+listing_panel.market_price_loading=Загрузка...
+listing_panel.original_price=Базовая цена
+listing_panel.recommended_price=Рекомендуемая цена
+listing_panel.price_change=Изменение цены
+listing_panel.price_adjustment=Корректировка цены
+listing_panel.durability_adjustment=Корректировка прочности
+listing_panel.listing_count=Лотов
+listing_panel.highest_price=Макс. цена
+listing_panel.lowest_price=Мин. цена
+listing_panel.average_price=Средняя цена
+listing_panel.storage_quantity=На складе
+listing_panel.sell_quantity=Количество
+listing_panel.sell_price=Цена
+listing_panel.tax_fee=Налог
+listing_panel.total_amount=Итого
+listing_panel.button_text=Выставить
+listing_panel.computing=Вычисление...
+listing_panel.no_data=Нет данных
+
+# ========== Размещение лотов ==========
+listing.success_notification=Успешно выставлено! {0} x{1}
+listing.error_cash=Нельзя выставлять наличные
+listing.error_container=Пожалуйста, опустошите контейнер перед выставлением
+listing.error_attachments=Пожалуйста, снимите модули перед выставлением
+listing.error_insufficient_funds=Недостаточно средств для налога
+listing.error_insufficient_quantity=Недостаточно предметов на складе
+listing.failed_generic=Ошибка размещения, попробуйте снова
+listing.limit_exceeded=Невозможно выставить больше предметов (лимит достигнут)
+listing.nonce_already_used=Повторный запрос размещения, попробуйте снова
+
+# ========== Общие ошибки ==========
+error.generic=Произошла ошибка, попробуйте снова
+error.load_failed=Ошибка загрузки, попробуйте снова
+error.login_nonce_used=Повторный запрос входа, попробуйте снова
+
+# ========== Пагинация ==========
+pagination.text=Стр. {0}, всего {1} предм.
+
+# ========== Загрузка предметов ==========
+items.loaded=Загружено {0} предметов
+
+# ========== Статус главного меню ==========
+status.checking_server=Проверка статуса сервера...
+status.logging_in=[Duck Market] Вход, пожалуйста, подождите...
+status.server_online=[Duck Market] Сервер онлайн
+status.server_offline=[Duck Market] Сервер оффлайн
+status.click_to_login=[Duck Market] Нажмите здесь для входа
+status.waiting_browser_login=[Duck Market] Ожидание входа через браузер...
+status.steam_id_not_found=[Duck Market] Не удалось получить Steam ID
+
+# ========== Опции взаимодействия ==========
+interaction.open_duck_market=Открыть Duck Market
+
+# ========== Диалог веб-входа ==========
+weblogin.dialog_title=Ожидание веб-входа
+weblogin.dialog_message=Если страница не открылась автоматически, нажмите кнопку копирования ссылки ниже для входа
+weblogin.copy_link_button=Копировать ссылку
+weblogin.cancel_button=Отмена
+
+# ========== Ссылки сообщества ==========
+community.qq_text=Вступить в группу QQ
+community.qq_url=https://docs.qq.com/aio/DU3pNVVRUa0tLbmJu?p=YcRni2jhOBEe2PFyaBNrMo
+community.discord_text=Зайти в Discord
+community.discord_url=https://discord.gg/JyeP9f7zcR
+
+# ========== Поставка ==========
+supply.title=Сколько вы хотите поставить?
+supply.confirm=Подтвердить поставку
+supply.payment=Вы получите {0}
+supply.success_notification=Поставка успешна! {0} x{1}, получено {2}
+supply.failed_notification=Ошибка поставки, попробуйте снова
+supply.cannot_fulfill=Этот заказ сейчас не может быть выполнен
+supply.insufficient_balance_for_tax=Недостаточно средств! Налог: {0}, Баланс: {1}
+supply.insufficient_items=Недостаточно предметов! У вас только {0} {1}
+supply.exceed_demand=Количество поставки не может превышать спрос ({0} шт.)
+
+# ========== Заказы на покупку ==========
+purchase_order.no_entry=Нет заказов на покупку для {0}
+purchase_order.cancelled_success=Заказ отменен, {0} монет возвращено в пункт выдачи
+purchase_order.cancelled_failed=Ошибка отмены заказа: {0}
+purchase_order.cancelled_failed_generic=Ошибка отмены заказа
+purchase.insufficient_balance=Недостаточно средств! Требуется: {0}, у вас: {1}
+
+# ========== Метки интерфейса поставки ==========
+supply.no_full_durability=У вас нет {0} с полной прочностью, нельзя поставить
+supply.quantity_label=Кол-во поставки
+supply.demand_label=Спрос:
+supply.you_have_full_durability=У вас с полной прочностью: {0} шт.
+supply.demand_and_buyer=Спрос: {0} шт. | Покупатель: {1}
+supply.tax_label=(Налог: {0})
+supply.insufficient_tax_label=(Нехватка налога: {0})
+
+# ========== Создание заказа на покупку ==========
+purchase_order.create_button=Разместить заказ
+purchase_order.price_with_tax={0} (Налог: {1})
+purchase_order.insufficient_funds=Недостаточно средств, требуется {0} (вкл. налог)
+purchase_order.tax_calculation_error=Ошибка расчета налога
+
+# ========== Общее ==========
+common.no_data=Нет данных
+common.quantity_format={0} шт.
+
+# ========== Уведомления WebSocket ==========
+notification.completed=Завершено
+notification.remaining_quantity=Нужно еще {0}
+notification.purchase_order_fulfilled={0} x{1} поставлено {2}, {3}
+notification.item_expired=Товар истек: {0} x{1} возвращено в шкафчик
+
+# ========== Ввод заказа на покупку ==========
+purchase_order.quantity_input_label=Количество
+purchase_order.price_input_label=Цена покупки
+purchase_order.quantity_must_be_positive=Количество должно быть больше 0
+purchase_order.quantity_exceeds_max=Количество не может превышать {0}
+purchase_order.price_cannot_be_negative=Цена не может быть отрицательной
+purchase_order.price_below_minimum=Цена не может быть ниже половины рекомендованной ({0})
+
+# ========== Публикация заказа ==========
+purchase_order.publish_success=Заказ размещен: {0} x{1}, заморожено {2}
+purchase_order.publish_failed=Ошибка размещения заказа: {0}
+purchase_order.publish_failed_generic=Ошибка размещения заказа
+
+# ========== Ошибки размещения ==========
+listing.insufficient_tax_balance=Недостаточно средств! Нужно {0} монет на налог, баланс {1}
+listing.insufficient_storage=Недостаточно на складе! Нужно {0}, на складе {1}
+
+# ========== Кнопка покупки ==========
+menu.purchase_order=Заказ на покупку
+
+# ========== Ошибки валидации ==========
+validation.listing_data_null=Данные лота не могут быть пустыми
+validation.item_null=Предмет не может быть пустым
+validation.invalid_item_type_id=Неверный ID типа предмета
+validation.item_name_empty=Название предмета не может быть пустым
+validation.quantity_must_be_positive=Количество должно быть больше 0
+validation.quantity_exceeds_absolute_max=Количество не может превышать {0} (системный лимит)
+validation.quantity_exceeds_storage=Количество не может превышать {0} (кол-во на складе)
+validation.quantity_out_of_range=Количество должно быть от 1 до {0}
+validation.price_must_be_positive=Цена должна быть больше 0
+validation.price_exceeds_max=Цена не может превышать 10,000,000
+validation.price_exceeds_one_million=Цена не может превышать 1,000,000
+validation.total_price_exceeds_max=Общая цена не может превышать 100,000,000
+validation.market_not_selected=Нужно выбрать рынок
+validation.durability_out_of_range=Прочность должна быть от 0 до 100
+validation.invalid_condition=Неверное состояние предмета
+
+# ========== Ошибки API ==========
+error.unknown=Неизвестная ошибка
+error.order_limit_exceeded=Лимит заказов достигнут (макс {0}), отмените старые
+error.order_limit_exceeded_generic=Лимит заказов достигнут, отмените старые
+error.order_cancelled=Заказ отменен, поставка невозможна
+error.order_completed=Заказ выполнен, повторная поставка невозможна
+error.order_expired=Заказ истек, поставка невозможна
+error.order_invalid_state=Статус заказа некорректен (возможно отменен или завершен)
+error.duplicate_purchase_order=Обнаружен дубликат заказа, подождите немного
+error.duplicate_order=Обнаружен дубликат заказа, подождите немного
+error.insufficient_balance_purchase_order=Недостаточно средств для создания заказа
+error.invalid_price=Неверная цена, проверьте настройки
+error.invalid_quantity=Неверное количество, проверьте настройки
+error.not_authenticated=Не выполнен вход или сессия истекла
+error.item_not_found=Предмет не найден или удален
+error.order_not_found=Заказ не найден или удален
+error.operation_failed=Операция не удалась, попробуйте снова
+
+# ========== Отображение времени ==========
+time.expired=Истек
+time.seconds={0} сек
+time.minutes={0} мин
+time.hours={0} ч
+time.hours_minutes={0} ч {1} мин
