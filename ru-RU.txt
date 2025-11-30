@@ -53,7 +53,7 @@ buy.sold_out=Товар распродан
 listing.button=Выставить
 delist.button=Снять
 delist.success_label=Снято
-delist.success=Успешно снято! {0} x{1} отправлено в шкафчик
+delist.success=Успешно снято! {0} x{1} отправлено в ячейку
 delist.failed=Не удалось снять, попробуйте снова
 
 # ========== Уведомления о покупке ==========
