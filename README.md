@@ -13,6 +13,7 @@ DuckMarket.Core/Localization/
 ├── ko-KR.txt    # Korean
 ├── fr-FR.txt    # French
 ├── vi-VN.txt    # Vietnamese
+├── ru-RU.txt    # Russian
 └── README.md    # Documentation
 ```
 
